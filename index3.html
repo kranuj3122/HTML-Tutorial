@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Table</title>
+  </head>
+  <style>
+    th,
+    td,
+    table {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    th {
+      text-align: left;
+    }
+    td {
+      text-align: center;
+    }
+    table {
+      height: 100%;
+      width: 100%;
+    }
+    td {
+      background-color: chartreuse;
+      color: white;
+    }
+    th {
+      background-color: darkblue;
+      color: white;
+    }
+  </style>
+  <body>
+    <table>
+      <caption>
+        Students
+      </caption>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th colspan="2">Email</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Anuj</td>
+          <td>kumaranuj22799</td>
+          <td>anuj</td>
+          <td>22</td>
+        </tr>
+        <tr>
+          <td>Amar</td>
+          <td>amar@12345</td>
+          <td>Amar@123</td>
+          <td>25</td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- 
+    <table>
+      <caption>
+        Students
+      </caption>
+      <tr>
+        <th>Name</th>
+        <td>Anuj</td>
+        <td>Amar</td>
+      </tr>
+      <tr>
+        <th rowspan="2">Email</th>
+        <td>amar@1234</td>
+        <td>anuj@1344</td>
+      </tr>
+      <tr>
+        <td>amar@1234</td>
+        <td>anuj@1344</td>
+      </tr>
+      <tr>
+        <th>age</th>
+        <td>22</td>
+        <td>25</td>
+      </tr>
+    </table> -->
+
+    <!-- <thead></thead> : - group header section
+    <tbody></tbody> :- group body content
+    <tfoot></tfoot> : - indicates footer of the table -->
+  </body>
+</html>
